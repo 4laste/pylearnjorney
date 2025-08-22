@@ -32,20 +32,20 @@ def is_positive(number): #Функция определяет положител
 print(is_positive(10))
 print(is_positive(-5))
 
-def subtract(a, b):
+def subtract(a, b): #Функция возвращает результат b -a
     return a - b
 x = 50
 y = 15
 result = subtract(y, x)
 print(result)
 
-def power(base, exponent):
+def power(base, exponent): #Функция возвращает возведение в степень base to exponent
     return base ** exponent
 my_base = 2
 result = power(my_base, 3)
 print(result)
 
-def append_to_list(old_list, new_item):
+def append_to_list(old_list, new_item): #Функция создает новый список содержащий все элементы из old_list в new_item
     return old_list + [new_item]
 initial_list = [1, 2, 3]
 value_to_add= 4
