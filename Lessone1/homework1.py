@@ -38,3 +38,17 @@ x = 50
 y = 15
 result = subtract(y, x)
 print(result)
+
+def power(base, exponent):
+    return base ** exponent
+my_base = 2
+result = power(my_base, 3)
+print(result)
+
+def append_to_list(old_list, new_item):
+    return old_list + [new_item]
+initial_list = [1, 2, 3]
+value_to_add= 4
+new_list = append_to_list(initial_list, value_to_add)
+print("Исходный список:", initial_list)
+print("Новый список:", new_list)
